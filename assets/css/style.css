@@ -1,4 +1,10 @@
 
+body {
+    background: url(../images/layout-background.jpg);
+    
+  
+}
+
 .container{
     width:60%;
     margin:10% auto;

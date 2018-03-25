@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Create container to store app content.  -->
+    <div class="container">
+        <div class="jumbotron">
+            <!-- game tittle -->
+            <h1 id="gameTitle">Totally Trivial Trivia!</h1>
+
+            <br>
+            <br>
+
+
+            <!-- start button triggers game -->
+            <div class>
+                <button class="btn btn-primary" id="startButton">START GAME</button>
+            </div>
+            <br>
+            <!-- wrapping all questions together -->
+            <div id="Wrapper">
+                <br>
+                <div class="questions">
+                    <p>Who is the top goalscorer in World Cup history?</p>
+                    <ul>
+                        <input class="incorrect" type="radio" name="q1" value="a">
+                        <label for="q1a">Ronaldo</label>
+                        <input class="correctAnswer" type="radio" name="q1" value="b">
+                        <label for="q1b">Klose</label>
+                        <input class="incorrect" type="radio" name="q1" value="c">
+                        <label for="q1c">Messi</label>
+                        <input class="incorrect" type="radio" name="q1" value="d">
+                        <label for="q1d">Cristiano Ronaldo</label>
+                    </ul>
+                </div>
+                <div class="questions">
+                    <p>What country has won the World Cup the most times?</p>
+                    <ul>
+                        <input class="correctAnswer" type="radio" name="q2" value="a">
+                        <label for="q2a">Brazil</label>
+                        <input class="incorrect" type="radio" name="q2" value="b">
+                        <label for="q2b">Italy</label>
+                        <input class="incorrect" type="radio" name="q2" value="c">
+                        <label for="q2c">Germany</label>
+                        <input class="incorrect" type="radio" name="q2" value="d">
+                        <label for="q2d">USA</label>
+                    </ul>
+                </div>
+                <div class="questions">
+                    <p>What country won the World Cup in 2014?</p>
+                    <ul>
+                        <input class="incorrect" type="radio" name="q3" value="a">
+                        <label for="q3a">Portugal</label>
+                        <input class="incorrect" type="radio" name="q3" value="b">
+                        <label for="q3b">Argentina</label>
+                        <input class="incorrect" type="radio" name="q3" value="c">
+                        <label for="q3c">Brazil</label>
+                        <input class="correctAnswer" type="radio" name="q3" value="d">
+                        <label for="q3d">Germany</label>
+                    </ul>
+                </div>
+                <div class="questions">
+                    <p>What country will be hosting the upcoming World Cup?</p>
+                    <ul>
+                        <input class="incorrect" type="radio" name="q4" value="a">
+                        <label for="q4a">Germany</label>
+                        <input class="correctAnswer" type="radio" name="q4" value="b">
+                        <label for="q4b">Russia</label>
+                        <input class="incorrect" type="radio" name="q4" value="c">
+                        <label for="q4c">Quatar</label>
+                        <input class="incorrect" type="radio" name="q4" value="d">
+                        <label for="q4d">South Africa</label>
+                    </ul>
+                </div>
+                <div class="questions">
+                    <p>What year was the first World Cup hosted?</p>
+                    <ul>
+                        <input class="incorrect" type="radio" name="q5" value="a">
+                        <label for="q5a">1942</label>
+                        <input class="correctAnswer" type="radio" name="q5" value="b">
+                        <label for="q5b">1930</label>
+                        <input class="incorrect" type="radio" name="q5" value="c">
+                        <label for="q5c">1962</label>
+                        <input class="incorrect" type="radio" name="q5" value="d">
+                        <label for="q5d">1940</label>
+                    </ul>
+                </div>
+                <br>
+                
+                <!-- submit button -->
+               
+                <button class="btn btn-primary" type="submit" id="submit">Submit</button>
+
+                <br><br>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+<!-- link javascript -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
